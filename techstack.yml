@@ -1,0 +1,224 @@
+repo_name: ashellwig/elm-mdl
+report_id: 51d4351eabd9a37761ec73e2576f4ee4
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-07T04:22:22+00:00'
+requested_by: web-flow
+provider: github
+branch: v8
+detected_tools_count: 18
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ashellwig/elm-mdl/blob/v8/demo/assets/highlight/highlight.pack.js
+  detection_source: demo/assets/highlight/highlight.pack.js
+  last_updated_by: Søren Debois
+  last_updated_on: 2016-08-10 07:41:11.000000000 Z
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/ashellwig/elm-mdl
+  detection_source: Repo Metadata
+- name: Elm
+  description: A type inferred, functional reactive language that compiles to HTML,
+    CSS, and JavaScript
+  website_url: http://package.elm-lang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package_manager/4009/default_2928dddce9b68e183e2cb320173ea0f72f1d612b.png
+  detection_source_url: https://github.com/ashellwig/elm-mdl
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ashellwig/elm-mdl
+  detection_source: Repo Metadata
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/ashellwig/elm-mdl/blob/v8/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Håkon Rossebø
+  last_updated_on: 2016-03-25 16:37:13.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/ashellwig/elm-mdl
+  detection_source: Repo Metadata
+- name: debois/elm-dom
+  description: DOM traversal for Elm event-handlers
+  package_url: http://package.elm-lang.org/debois/elm-dom
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/elm/image.png
+  detection_source_url: https://github.com/ashellwig/elm-mdl/blob/v8/demo/elm-package.json
+  detection_source: demo/elm-package.json
+  last_updated_by: Søren Debois
+  last_updated_on: 2016-12-26 12:56:23.000000000 Z
+- name: debois/elm-mdl
+  description: Material Design Lite port to Elm
+  package_url: http://package.elm-lang.org/debois/elm-mdl
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/elm/image.png
+  detection_source_url: https://github.com/ashellwig/elm-mdl/blob/v8/examples/elm-package.json
+  detection_source: examples/elm-package.json
+  last_updated_by: Søren Debois
+  last_updated_on: 2016-12-28 07:25:12.000000000 Z
+- name: elm-community/elm-test
+  description: Unit and Fuzz testing support with Console/Html/String outputs
+  package_url: http://package.elm-lang.org/elm-community/elm-test
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/elm/image.png
+  detection_source_url: https://github.com/ashellwig/elm-mdl/blob/v8/tests/elm-package.json
+  detection_source: tests/elm-package.json
+  last_updated_by: Håkon Rossebø
+  last_updated_on: 2016-12-28 12:08:14.000000000 Z
+- name: elm-lang/core
+  description: Elm's standard libraries
+  package_url: http://package.elm-lang.org/elm-lang/core
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/elm/image.png
+  detection_source_url: https://github.com/ashellwig/elm-mdl/blob/v8/demo/elm-package.json
+  detection_source: demo/elm-package.json
+  last_updated_by: Søren Debois
+  last_updated_on: 2016-12-26 12:56:23.000000000 Z
+- name: elm-lang/dom
+  description: DOM helpers for managing focus and scrolling
+  package_url: http://package.elm-lang.org/elm-lang/dom
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/elm/image.png
+  detection_source_url: https://github.com/ashellwig/elm-mdl/blob/v8/demo/elm-package.json
+  detection_source: demo/elm-package.json
+  last_updated_by: Søren Debois
+  last_updated_on: 2016-12-26 12:56:23.000000000 Z
+- name: elm-lang/html
+  description: Fast HTML, rendered with virtual DOM diffing
+  package_url: http://package.elm-lang.org/elm-lang/html
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/elm/image.png
+  detection_source_url: https://github.com/ashellwig/elm-mdl/blob/v8/demo/elm-package.json
+  detection_source: demo/elm-package.json
+  last_updated_by: Søren Debois
+  last_updated_on: 2016-12-26 12:56:23.000000000 Z
+- name: elm-lang/mouse
+  description: Track global mouse clicks and movements
+  package_url: http://package.elm-lang.org/elm-lang/mouse
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/elm/image.png
+  detection_source_url: https://github.com/ashellwig/elm-mdl/blob/v8/demo/elm-package.json
+  detection_source: demo/elm-package.json
+  last_updated_by: Søren Debois
+  last_updated_on: 2016-12-26 12:56:23.000000000 Z
+- name: elm-lang/navigation
+  description: Manage browser navigation yourself
+  package_url: http://package.elm-lang.org/elm-lang/navigation
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/elm/image.png
+  detection_source_url: https://github.com/ashellwig/elm-mdl/blob/v8/demo/elm-package.json
+  detection_source: demo/elm-package.json
+  last_updated_by: Søren Debois
+  last_updated_on: 2016-12-26 12:56:23.000000000 Z
+- name: elm-lang/window
+  description: Get the dimensions of the window / screen size
+  package_url: http://package.elm-lang.org/elm-lang/window
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/elm/image.png
+  detection_source_url: https://github.com/ashellwig/elm-mdl/blob/v8/demo/elm-package.json
+  detection_source: demo/elm-package.json
+  last_updated_by: Søren Debois
+  last_updated_on: 2016-12-26 12:56:23.000000000 Z
+- name: evancz/elm-markdown
+  description: Fast markdown parsing and rendering
+  package_url: http://package.elm-lang.org/evancz/elm-markdown
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/elm/image.png
+  detection_source_url: https://github.com/ashellwig/elm-mdl/blob/v8/demo/elm-package.json
+  detection_source: demo/elm-package.json
+  last_updated_by: Søren Debois
+  last_updated_on: 2016-12-26 12:56:23.000000000 Z
+- name: rgrempel/elm-route-url
+  description: Router for single-page-apps in Elm
+  package_url: http://package.elm-lang.org/rgrempel/elm-route-url
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/elm/image.png
+  detection_source_url: https://github.com/ashellwig/elm-mdl/blob/v8/demo/elm-package.json
+  detection_source: demo/elm-package.json
+  last_updated_by: Søren Debois
+  last_updated_on: 2016-12-26 12:56:23.000000000 Z
+- name: rtfeldman/node-test-runner
+  description: Run elm-test suites in a Node.js CLI
+  package_url: http://package.elm-lang.org/rtfeldman/node-test-runner
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/elm/image.png
+  detection_source_url: https://github.com/ashellwig/elm-mdl/blob/v8/tests/elm-package.json
+  detection_source: tests/elm-package.json
+  last_updated_by: Håkon Rossebø
+  last_updated_on: 2016-12-28 11:33:40.000000000 Z
